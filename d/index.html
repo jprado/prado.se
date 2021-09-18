@@ -20,8 +20,8 @@
         a.href = a.href + 
             '?subject=' + 
             encodeURIComponent('I\'m interested in purchasing ' + 
-            location.pathname.split('d/')[1] + 
-            ".\nI promise I am not a spammer and I won't lowball the price."
+            location.toString().split('?')[1] + 
+            ".\n\nI promise I won't lowball."
         );
     </script>
 </body>
